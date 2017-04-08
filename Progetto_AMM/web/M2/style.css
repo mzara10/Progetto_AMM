@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-mar-2017, 11.40.25
+    Author     : INFORMATICA
+*/
+
+body {
+    background-color: #e6f0ff;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+h1 {
+   
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic";
+    text-align: center;
+}
+
+h2{
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic";
+}
+h3 {
+   
+    background-color:  #1a1aff;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic";
+    color: white;
+    text-align: center;
+}
+
+a:link{
+    font-size: 15px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:visited{
+    font-size: 15px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+header{
+    font: 25px/50px "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic";
+    background-color: #FF9933;
+    text-align: center;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
