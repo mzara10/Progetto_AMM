@@ -75,11 +75,12 @@ header a{
         
 }
 
+/*Visualizzazione Nome utente attivo in alto a destra nell Header*/
 #utenteAttivo{
     position: fixed;
     top: 0px;
     right: 10px;
-    
+    /*Inserimento immagine decorativa*/
     background-size: 20px 20px;
     background-image: url("icone/profileIcon.png");
     background-repeat: no-repeat;
@@ -87,6 +88,7 @@ header a{
     background-position-y: 15px;
     
 }
+/*Visualizza la scritta (per ora statica) Logout in alto a destra nell Header*/
 #logout{
     position: fixed;
     top: 20px;
@@ -95,12 +97,14 @@ header a{
     text-decoration: underline;
     
 }
+/*Visualizza una scritta che indica la pagina corrente, viene usato nella bacheca*/
 #paginaCorrente {
     text-align: center;
     border:2px solid #aaaaaa;
     color: #FF9933;
     
 }
+/*Visualizzazione content della bacheca*/
 #bachecacontent{
     padding-top: 1px;     
     padding-bottom: 10px;
@@ -113,16 +117,17 @@ header a{
     position: absolute;
     
 }
-
-#sidebarBacheca{
+/*Visualizzazione sidebar sinistra*/
+#sidebar{
     width: 20%;
-    position: absolute;   
+    position: fixed;   
     border-right: 2px solid #aaaaaa;
     padding-right: 25px;
     height: 100%;
     margin-top:60px; 
 }
 
+/*Visualizzazione immagine decorativa di tipo people*/
 .people {
     content: "";
     background-size: 20px 20px;
@@ -131,6 +136,7 @@ header a{
     padding-left: 30px; 
 }
 
+/*Visualizzazione immagine decorativa di tipo GrupInfo*/
 .groupInfo {
     content: "";
     background-size: 20px 20px;
@@ -138,6 +144,7 @@ header a{
     background-repeat: no-repeat;
     padding-left: 30px; 
 }
+/*Visualizzazione immagine decorativa di tipo GrupRitardatari*/
 .groupRitardatari {
     content: "";
     background-size: 20px 20px;
@@ -145,29 +152,26 @@ header a{
     background-repeat: no-repeat;
     padding-left: 30px; 
 }
+
+/*Visualizzazione Link di navigazione tra le pagine*/
 #navigaBacheca{
-    position:absolute;
-    bottom: 0px;
-   
+    position:fixed;
+    bottom: 0px; 
 }
 
 #linkDescrizione{
     margin-top: 65px;    
 }
 
+/*Visualizzazione della sezione aggiornamento del profilo*/
 #aggiornaProfilo{
    
-    padding-top: 1px;     
-    padding-bottom: 10px;
+   position: absolute;
+   margin-left: 500px;
+   margin-top: 100px;
+   text-align: center;
     
-    text-align: center;
-    margin: 0 auto;
-    margin-top:60px; 
-    left: 400px; 
-    margin-right: 5px;
-    position: absolute;
-    
-    
+    /*Inserimento immagine decorativa*/
     content: "";
     background-size: 100px 100px;
     background-image: url("icone/profileIcone2.png");
@@ -176,18 +180,19 @@ header a{
     
 }
 
+/*Gestione label e campi input della sezione di aggiornamento del profilo*/
 #aggiornaProfilo label:after{
      content: '\A';
      white-space: pre;
-        
 }
 
-
+/*Gestione label e campi input della sezione di aggiornamento del profilo*/
 #aggiornaProfilo input{
     text-align: center;
     margin-left: 0px; 
 }
 
+/*Visualizzazione sezione di inserimento credenziali*/
 #insert-credentials{
     margin-top: 80px;
     margin-right: 33%;
@@ -203,9 +208,9 @@ header a{
      white-space: pre;
 }
 
-
+/*Visualizzazione sezione di navigazione ai Link nella pagina aggiornamento profilo*/
 #navigaProfilo{
     position:absolute;
     bottom: 0px;
-   
+    
 }
