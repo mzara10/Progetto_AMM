@@ -156,14 +156,14 @@ header a{
 }
 
 #aggiornaProfilo{
-    margin-top: 65px;
+   
     padding-top: 1px;     
     padding-bottom: 10px;
-    width: 60%;
-    text-align: left;
+    
+    text-align: center;
     margin: 0 auto;
     margin-top:60px; 
-    right: 0px;
+    left: 400px;
     margin-right: 5px;
     position: absolute;
     
@@ -173,12 +173,19 @@ header a{
     background-image: url("icone/profileIcone2.png");
     background-repeat: no-repeat;
     padding-left: 150px;
-      
+    
 }
+
+#aggiornaProfilo label:after{
+     content: '\A';
+     white-space: pre;
+        
+}
+
+
 #aggiornaProfilo input{
-   
     text-align: center;
-    margin-left: 200px; 
+    margin-left: 0px; 
 }
 
 #insert-credentials{
