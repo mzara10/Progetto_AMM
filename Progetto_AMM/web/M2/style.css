@@ -211,19 +211,19 @@ header a{
 
 }
 
+/*CSS per la visualizzazione su schermi da 480px a 1024px*/
 @media only screen and (min-width: 480px)
 and (max-width: 1024px)
 {
+    /*Visualizzazione della sezione aggiornamento del profilo*/
     #aggiornaProfilo{
-
-       position: absolute;
+        position: absolute;
         padding-left: 0px;
         margin-left: 45%;
         margin-top: 100px;
         text-align: center;
 
         background-image: none;
-
     }
 
     /*Gestione label e campi input della sezione di aggiornamento del profilo*/
@@ -231,6 +231,7 @@ and (max-width: 1024px)
         content: '\A';
         white-space: pre;
     } 
+    
     /*Visualizzazione titolo nell Header*/
     header h1{
         display:inline;
@@ -238,16 +239,28 @@ and (max-width: 1024px)
         padding-left: 2px;
         font-size: 25px; 
     }
+    
     header a{
         position: fixed;
         left: 35%;
         padding-left: 2px;
         padding-right: 2px;
-
     }
     
-    
+    #bachecacontent{
+        padding-top: 1px;     
+        padding-bottom: 10px;
+        width: 65%;
+        text-align: left;
+
+        margin-top:60px; 
+        right: 10px;
+
+        margin-right: 5px;
+        position: absolute;
+    }
 }
+
 
 /*CSS per la visualizzazione su schermi da 480px o minori*/
 @media only screen and (max-width: 480px)
