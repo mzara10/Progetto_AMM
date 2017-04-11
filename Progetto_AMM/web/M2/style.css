@@ -220,7 +220,7 @@ and (max-width: 1024px)
         position: absolute;
         padding-left: 0px;
         margin-left: 45%;
-        margin-top: 100px;
+        margin-top: 100px; 
         text-align: center;
 
         background-image: none;
