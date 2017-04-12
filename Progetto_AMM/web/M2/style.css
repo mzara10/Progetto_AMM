@@ -12,6 +12,7 @@ body {
     background-color: #e6f0ff;
     font-family: Arial, Helvetica, sans-serif;
 
+
 }
 h1 {
 
@@ -166,6 +167,10 @@ header a{
     margin-left: 500px;
     margin-top: 100px;
     text-align: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    box-shadow: 0px 10px 10px rgba(0,0,0,.2);
 
     /*Inserimento immagine decorativa*/
     content: "";
@@ -208,7 +213,19 @@ header a{
 #naviga{
     position:fixed;
     bottom: 1px;
+}
+/*focus nei box di imput*/
+input:focus{
+    outline: none;
+    border-color: #FF9933;
+    box-shadow: 0 0 5px #FF9933;
+}
 
+/*focus nei TextArea imput*/
+textArea:focus{
+    outline: none;
+   border-color: #FF9933;
+   box-shadow: 0 0 5px #FF9933;
 }
 
 /*CSS per la visualizzazione su schermi da 480px a 1024px*/
@@ -231,7 +248,7 @@ and (max-width: 1024px)
         content: '\A';
         white-space: pre;
     } 
-    
+
     /*Visualizzazione titolo nell Header*/
     header h1{
         display:inline;
@@ -239,14 +256,14 @@ and (max-width: 1024px)
         padding-left: 2px;
         font-size: 25px; 
     }
-    
+
     header a{
         position: fixed;
         left: 35%;
         padding-left: 2px;
         padding-right: 2px;
     }
-    
+
     #bachecacontent{
         padding-top: 1px;     
         padding-bottom: 10px;
