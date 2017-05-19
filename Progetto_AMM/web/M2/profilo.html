@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html> 
+    <head>
+        <title>Profilo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Nerd book nerdbook social socialnetwork">
+        <meta name="description" content="Social network per Nerd">
+        <link rel="stylesheet" type="text/css" href="style.css"
+              media="screen">
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1 id="titleToHide">NerdBook</h1> 
+                    <label id="utenteAttivo">Mario Gatto</label>
+                    <label id="logout">Logout</label>
+                    <a href="bacheca.html" > Bacheca </a> 
+            </div>
+        </header>
+        <div id="sidebar">
+                <div id="persone">
+                    <h3>Persone</h3>
+                    <p class="people">Micele Liria</p>
+                    <p class="people">Giuca Liurato</p>
+                    <p class="people">Marzotto</p>
+                </div>
+                <div id="gruppi">
+                    <h3>Gruppi</h3>
+                    <p class="groupInfo">Informagici</p>
+                    <p class="groupRitardatari">Ritardatari</p>
+                </div>
+            </div>
+        <div id="aggiornaProfilo">
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" name="name"
+                       id="name" value=" Inserisci Nome " /> <br>
+
+                <label for="surname">cognome</label>
+                <input type="text" name="surname"
+                       id="surname" value=" Inserisci cognome " />
+                <br />
+                <label for="urlFotoProfilo">Foto profilo</label>
+                <input type="url" name="urlFotoProfilo"
+                       id="urlFotoProfilo"/>
+                <br/>
+                <label for="frasePresentazione"> Frase di presentazione</label>
+                <textarea rows="4" cols="20" name="frasePresentazione"
+                          id="frasePresentazione" >
+                </textarea>
+                <br />
+                <label for="dataNascita">Inserisci data di nascita</label>
+                <input type="date" name="dataNascita"
+                       id="dataNascita" />
+                <br />
+                <label for="pswd">Password</label>
+                <input type="password" name="pswd” "
+                       id="pswd" value="oscurato" />
+                <br />
+                <label for="ConfermaPswd">Conferma Password</label>
+                <input type="password" name="ConfermaPswd” "
+                       id="ConfermaPswd" value="oscurato" /> <br>
+                <input type="submit" value="Aggiorna"/>
+            </form>
+        </div>
+        <nav id="naviga">
+            <h3>Vai a</h3>
+            <ul>
+                <li> <a href="descrizione.html" > Descrizione </a> </li> 
+                <li> <a href="login.html" > Login </a></li> 
+            </ul>
+        </nav>
+    </body>
+</html>
